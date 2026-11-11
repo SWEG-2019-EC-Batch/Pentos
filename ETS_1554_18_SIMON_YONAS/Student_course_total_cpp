@@ -3,6 +3,7 @@
 using namespace std;
 
 int main() {
+double assignment, midterm, finalMark;
     return 0;
 }
 
