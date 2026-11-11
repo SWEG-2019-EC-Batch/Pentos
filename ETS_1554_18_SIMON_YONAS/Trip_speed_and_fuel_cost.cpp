@@ -1,4 +1,5 @@
 #include <iostream>
+#include <iomanip>
 using namespace std;
 
 int main() {
@@ -17,7 +18,10 @@ int main() {
     double speed      = distance / totalHours;
     double fuelUsed   = distance * fuelPer100 / 100.0;
     double fuelCost   = fuelUsed * pricePerLiter;
-
+    cout << fixed << setprecision(2);
+    cout << "Average speed: " << speed << " km/h" << endl;
+    cout << "Fuel used: " << fuelUsed << " liters" << endl;
+    cout << "Fuel cost: " << fuelCost << " birr" << endl;
 
     return 0;
 }
