@@ -11,6 +11,7 @@ cin >> assignment >> midterm >> finalMark;
 double total = 0.20 * assignment + 0.30 * midterm + 0.50 * finalMark;
 cout << fixed << setprecision(1);
 cout << "Total: " << total << endl;
+cout << "Result: " << (total >= 50 ? "Pass" : "Fail") << endl;
 
     return 0;
 }
