@@ -1,0 +1,33 @@
+
+#include <iostream>
+#include <iomanip>
+using namespace std;
+
+int main() {
+    double assay, mid, final, total, X, Y, Z;
+
+    cout << "This program helps you calculate your total mark out of 100% and lets you know your status: Pass or Fail." << endl;
+
+    cout << "How many did you get in your assignment out of 100%? ";
+    cin >> assay;
+
+    cout << "How many did you get in your midterm exam out of 100%? ";
+    cin >> mid;
+
+    cout << "How many did you get in your final exam out of 100%? ";
+    cin >> final;
+
+    X = assay * 20 / 100;
+    Y = mid * 30 / 100;
+    Z = final * 50 / 100;
+
+    total = X + Y + Z;
+
+    cout << fixed << setprecision(1);
+
+    cout << (total >= 50 ?
+    "Congratulations, you are passed. You got " :
+    "Sorry, you are failed. You got ") << total << endl;
+
+    return 0;
+}
