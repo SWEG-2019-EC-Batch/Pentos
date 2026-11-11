@@ -19,7 +19,7 @@ int main() {
             (midterm * midterm_weight) + 
             (finalMark * final_weight);
 
-    // Print results and status
+    // Print the total (one decimal place) and the word Pass or Fail
     cout << fixed << setprecision(1);
     cout << "Total: " << total << "/100" << endl;
     cout << ((total >= pass_mark) ? "Pass" : "Fail") << endl;
