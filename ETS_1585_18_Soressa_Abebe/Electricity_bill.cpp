@@ -21,7 +21,7 @@ int main() {
     // Calculate total bill
     totalBill = energyCharge + service_charge;
 
-    // Print results 
+    // Print the energy charge, the service charge and the total bill (two decimals). 
     cout << fixed << setprecision(2);
     cout << "Energy charge : " << energyCharge << " birr" << endl;
     cout << "Service charge: " << service_charge << " birr" << endl;
