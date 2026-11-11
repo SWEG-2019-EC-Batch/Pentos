@@ -13,6 +13,11 @@ int main() {
     cin >> fuelPer100;
     cout << "Enter price per liter (birr): ";
     cin >> pricePerLiter;
+    double totalHours = hours + minutes / 60.0;   // 60.0 keeps the decimal part
+    double speed      = distance / totalHours;
+    double fuelUsed   = distance * fuelPer100 / 100.0;
+    double fuelCost   = fuelUsed * pricePerLiter;
+
 
     return 0;
 }
