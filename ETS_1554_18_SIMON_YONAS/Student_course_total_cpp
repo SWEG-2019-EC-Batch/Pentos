@@ -4,6 +4,10 @@ using namespace std;
 
 int main() {
 double assignment, midterm, finalMark;
+
+cout << "Enter assignment, midterm and final marks (each out of 100): ";
+cin >> assignment >> midterm >> finalMark;
+
     return 0;
 }
 
