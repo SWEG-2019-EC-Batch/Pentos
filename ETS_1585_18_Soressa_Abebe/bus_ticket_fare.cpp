@@ -12,7 +12,7 @@ int main() {
     char isstud;
     string destination;
 
-    cout << "Starting point: Addis Ababa (Default)\n";
+    cout << "Starting point: Addis Ababa\n";
     cout << "Choose your destination:\n";
     cout << "1. Bahir Dar (950 ETB)\n";
     cout << "2. Hawassa (550 ETB)\n";
