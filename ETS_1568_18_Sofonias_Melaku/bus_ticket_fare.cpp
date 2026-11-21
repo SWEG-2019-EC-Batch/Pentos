@@ -90,9 +90,9 @@ int main()
 
   total_fare= base_fare + extra_charge;
  
- cout<< "Base fare:  "<< base_fare<<"birr\n";
+ cout<< "Base fare(with discount):  "<< base_fare<<"birr\n";
  cout<< "Extra charge:  "<< extra_charge <<"birr\n";
  cout<< "Total discount:  "<< total_discount <<"birr\n";
- cout<< "Total fair:  "<< total_fare<<"birr\n";
+ cout<< "Total fare:  "<< total_fare<<"birr\n";
  return 0;
 }
